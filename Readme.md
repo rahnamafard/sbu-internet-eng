@@ -386,3 +386,13 @@ _I Used Postman application for testing api functionalities._
 ```
 https://internet-eng-hw1.herokuapp.com/gis/testpoint?lat=54.755859375&long=35.67514743608467
 ```
+returns:
+```json
+{
+    "polygons": [
+        "Asia",
+        "Iran",
+        "Middle East"
+    ]
+}
+```
