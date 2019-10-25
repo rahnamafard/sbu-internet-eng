@@ -63,6 +63,8 @@
 
 ### 5) Deploy Project on heroku.com
 
+> **Tip 1**: Because of the sanctions we have to select a region other than Iran at the registration stage!
+
 1. Install the Heroku Command Line Interface (CLI):
     ```
     sudo snap install heroku --classic
@@ -115,6 +117,8 @@
     ```
 
 ## Test API
+
+_I Used Postman application for testing api functionalities._
 
 ### PUT Example request (JSON)
 
