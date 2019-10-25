@@ -79,9 +79,9 @@
 
 
 > **Tip 2**: Let heroku choose appropriate port at run time:
-```
-const port = process.env.PORT || 3000;
-```
+> ```
+> const port = process.env.PORT || 3000;
+> ```
 
 
 > **Tip 3**: If you use ES6 standard, notice that you must determine `start` value in `package.json` as below:
