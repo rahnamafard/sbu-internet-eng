@@ -80,7 +80,7 @@
 
 
 
-> **Tip 1**: If you use ES6 standard, notice that you must determine `start` value in `package.json` as below:
+> **Tip 2**: If you use ES6 standard, notice that you must determine `start` value in `package.json` as below:
 > ```javascript
 > {
 >   ...
