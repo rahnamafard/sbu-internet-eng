@@ -78,9 +78,13 @@
 * **[Here](https://internet-eng-hw1.herokuapp.com/) is my app on heroku.**
 
 
+> **Tip 2**: Let heroku choose appropriate port at run time:
+```
+const port = process.env.PORT || 3000;
+```
 
 
-> **Tip 2**: If you use ES6 standard, notice that you must determine `start` value in `package.json` as below:
+> **Tip 3**: If you use ES6 standard, notice that you must determine `start` value in `package.json` as below:
 > ```javascript
 > {
 >   ...
