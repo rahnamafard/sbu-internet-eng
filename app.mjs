@@ -2,9 +2,8 @@ import express from 'express'
 import turf from '@turf/turf'
 import { featureToPolygon } from './functions.mjs';
 
-const app = express()
-// const port = 3001
-const port = process.env.PORT
+const app = express();
+const port = process.env.PORT || 3000;
 
 app.use(express.json())
 app.get('/', (req, res) => res.send('Hi! It\'s the first homework of Internet Engineering course :)'))
@@ -55,4 +54,6 @@ app.put('/gis/addpolygon', function(req, res) {
     res.send(polygons)
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+server.listen(port, () => {
+    console.log("App is running on port " + port);
+});
