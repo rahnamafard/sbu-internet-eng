@@ -3,7 +3,8 @@ import turf from '@turf/turf'
 import { featureToPolygon } from './functions.mjs';
 
 const app = express()
-const port = 3000
+// const port = 3001
+const port = process.env.PORT
 
 app.use(express.json())
 app.get('/', (req, res) => res.send('Hi! It\'s the first homework of Internet Engineering course :)'))
