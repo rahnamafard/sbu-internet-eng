@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.json())
-app.get('/', (req, res) => res.send('Hi! It\'s the first homework of Internet Engineering course :)'))
+app.get('/', (req, res) => res.send('Hi! It is the first homework of Internet Engineering course :)'))
 
 var polygons = [];
 
@@ -54,6 +54,6 @@ app.put('/gis/addpolygon', function(req, res) {
     res.send(polygons)
 })
 
-server.listen(port, () => {
+app.listen(port, () => {
     console.log("App is running on port " + port);
 });
