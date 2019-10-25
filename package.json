@@ -4,6 +4,7 @@
   "description": "Internet Engineering HW1 - GSI App",
   "main": "app.js",
   "scripts": {
+    "start": "node --experimental-modules app.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Seyed AmirHussein Rahnamafard",
