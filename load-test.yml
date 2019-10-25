@@ -1,0 +1,9 @@
+config:
+  target: "https://internet-eng-hw1.herokuapp.com/"
+  phases:
+    - duration: 30
+      arrivalRate: 20
+scenarios:
+  - flow:
+      - get:
+          url: "/"
