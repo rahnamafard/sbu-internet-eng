@@ -1,5 +1,5 @@
 config:
-  target: "https://internet-eng-hw1.herokuapp.com/"
+  target: "https://internet-eng-hw1.herokuapp.com/gis/testpoint?lat=54.755859375&long=35.67514743608467"
   phases:
     - duration: 30
       arrivalRate: 20
